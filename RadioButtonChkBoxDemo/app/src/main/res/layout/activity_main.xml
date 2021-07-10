@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableRow android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Name"
+         />
+        <EditText android:id="@+id/etUN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </TableRow>
+
+    <TableRow android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gender"/>
+        <RadioGroup android:id="@+id/rg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <RadioButton android:id="@+id/rbMale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:checked="true"/>
+            <RadioButton android:id="@+id/rbFemale"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Female"/>
+
+        </RadioGroup>
+    </TableRow>
+    <TableRow android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView/>
+            <CheckBox android:id="@+id/chbRE"
+                android:text="Receive e-mail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                />
+
+    </TableRow>
+    <TableRow android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView/>
+        <CheckBox android:id="@+id/chbSTP"
+            android:text="Share details with 3rd party"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </TableRow>
+    <TableRow android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView/>
+        <Button
+            android:text="Register"
+            android:onClick="register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+    </TableRow>
+
+
+</TableLayout>

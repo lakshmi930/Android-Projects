@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LayoutDemo</string>
+    <string name="btnName">Button</string>
+    <string name="sample">Sample Text</string>
+    <string name="hint1">Enter First Name</string>
+    <string name="hint2">Enter Last Name</string>
+</resources>
